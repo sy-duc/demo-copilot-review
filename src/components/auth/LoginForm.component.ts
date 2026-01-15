@@ -2,6 +2,7 @@ import { defineComponent, reactive } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { helpers, required, email, minLength } from '@vuelidate/validators'
 import { useValidate } from '@/composables/useValidate'
+import AuthService from '@/api/services/AuthService'
 
 export default defineComponent({
   name: 'LoginForm',
@@ -35,8 +36,15 @@ export default defineComponent({
       if (v$.value.$invalid) {
         return
       }
-      // Handle successful login here
-      console.log('Login successful!')
+      
+      try {
+        const response = await AuthService.login(account.username, account.password)
+        console.log('Login successful!', response.token)
+        // Lưu token vào localStorage
+        localStorage.setItem('authToken', response.token)
+      } catch (error) {
+        console.error('Login failed:', error)
+      }
     }
 
     return {

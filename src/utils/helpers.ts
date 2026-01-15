@@ -1,0 +1,10 @@
+/**
+ * Xóa các giá trị null | undefined | '' trong object
+ * @param obj
+ * @returns
+ */
+export const removeEmpty = (obj: Record<string, any>) => {
+  return Object.fromEntries(
+    Object.entries(obj).filter(([_, v]) => v !== null && v !== undefined && v !== ''),
+  )
+}

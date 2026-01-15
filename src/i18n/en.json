@@ -1,0 +1,19 @@
+{
+  "welcome": "Welcome to the application!",
+  "language": "Language",
+  "login": {
+    "title": "Login",
+    "username": "Email",
+    "password": "Password",
+    "submit": "Login"
+  },
+  "error": {
+    "MSG001": "{0} is required.",
+    "MSG002": "{0} must be at least {1} characters.",
+    "MSG003": "{0} is not in correct format."
+  },
+  "info": {
+    "INFO001": "Data saved successfully.",
+    "INFO002": "You have new notifications."
+  }
+}

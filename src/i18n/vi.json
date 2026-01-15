@@ -1,0 +1,19 @@
+{
+  "welcome": "Chào mừng đến với ứng dụng!",
+  "language": "Ngôn ngữ",
+  "login": {
+    "title": "Đăng nhập",
+    "username": "Địa chỉ Email",
+    "password": "Mật khẩu",
+    "submit": "Đăng nhập"
+  },
+  "error": {
+    "MSG001": "{0} là hạng mục bắt buộc",
+    "MSG002": "{0} phải có ít nhất {1} ký tự.",
+    "MSG003": "{0} không hợp lệ."
+  },
+  "info": {
+    "INFO001": "Dữ liệu đã được lưu thành công.",
+    "INFO002": "Bạn có thông báo mới."
+  }
+}

@@ -44,7 +44,6 @@ export default defineComponent({
         localStorage.setItem('authToken', response.token)
       } catch (error) {
         console.error('Login failed:', error)
-        // Hiển thị thông báo lỗi cho người dùng
       }
     }
 

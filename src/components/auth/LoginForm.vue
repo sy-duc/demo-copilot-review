@@ -15,7 +15,7 @@
       </div>
 
       <div>
-        <label for="password">{{ $t('login.password') }}</label>
+        <label for="password">Password</label>
         <input
           id="password"
           v-model="account.password"

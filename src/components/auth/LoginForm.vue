@@ -35,7 +35,7 @@
 
 <script lang="ts" src="./LoginForm.component.ts"></script>
 
-<style scoped>
+<style>
 .is-invalid {
   border-color: red;
 }

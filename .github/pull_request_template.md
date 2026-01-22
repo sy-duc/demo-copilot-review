@@ -1,21 +1,16 @@
 # Pull Request Description
----
 
-## 1. Role
+## Role
 - TODO
----
 
-## 2. Pull Request Introduction
+
+## Pull Request Objective
 - TODO
----
 
-## 3. Primary Review Checklist
+
+## Review Focus for Pull Request
 - TODO
----
 
-## 4. Review Focus
-- Correctness: TODO
-- Readability & Maintainability: TODO
-- Performance: TODO
-- Security: TODO
-- Architecture & Design: TODO
+
+## Review Priorities
+- TODO
